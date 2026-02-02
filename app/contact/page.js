@@ -95,8 +95,8 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-1">Email</h3>
-                    <p className="text-gray-600">hello@leeuki.com</p>
-                    <p className="text-gray-600">support@leeuki.com</p>
+                    <p className="text-gray-600">hello@leeuki.ai</p>
+                    <p className="text-gray-600">support@leeuki.ai</p>
                   </div>
                 </div>
                 <div className="flex items-start">
