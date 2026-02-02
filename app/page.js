@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   const services = [
     {
-      title: 'Consulting Services',
+      title: 'AI Consulting Services',
       description: 'Strategic retail consulting to help your business grow',
       href: '/services/consulting',
       classNumber: 'Class 035',
