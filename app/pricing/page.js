@@ -104,9 +104,15 @@ export default function PricingPage() {
                     ? 'bg-blue-600 text-white hover:bg-blue-700'
                     : 'bg-gray-200 text-gray-800 hover:bg-gray-300'
                 }`}
+                onClick={() => alert('Payment integration coming soon! Contact us at hello@leeuki.ai')}
               >
-                Get Started
+                {plan.price === 'Custom' ? 'Contact Sales' : 'Subscribe Now'}
               </button>
+              {plan.price !== 'Custom' && (
+                <p className="text-xs text-gray-500 mt-2 text-center">
+                  🔒 Secure payment powered by Stripe
+                </p>
+              )}
             </div>
           ))}
         </div>
