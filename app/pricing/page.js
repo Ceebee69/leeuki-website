@@ -1,7 +1,4 @@
-export const metadata = {
-  title: 'Pricing - Leeuki',
-  description: 'AI Consulting Services - Flexible pricing options',
-}
+'use client'
 
 export default function PricingPage() {
   const packages = [
