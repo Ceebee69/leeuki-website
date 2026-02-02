@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Consulting Services - Leeuki',
-  description: 'Strategic retail consulting services (Class 035)',
+  title: 'AI Consulting Services - Leeuki',
+  description: 'Strategic retail consulting services',
 }
 
 export default function ConsultingPage() {
@@ -8,12 +8,7 @@ export default function ConsultingPage() {
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-4">
-            <span className="text-sm font-semibold text-blue-600 bg-blue-100 px-3 py-1 rounded">
-              Class 035
-            </span>
-          </div>
-          <h1 className="text-5xl font-bold mb-6">Consulting Services</h1>
+          <h1 className="text-5xl font-bold mb-6">AI Consulting Services</h1>
           <p className="text-xl text-gray-600 mb-12">
             Strategic retail consulting to help your business grow and thrive in today's competitive market.
           </p>

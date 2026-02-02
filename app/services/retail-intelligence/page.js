@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Retail Intelligence - Leeuki',
-  description: 'SaaS platform for comprehensive retail analytics (Class 042 - SaaS)',
+  description: 'SaaS platform for comprehensive retail analytics',
 }
 
 export default function RetailIntelligencePage() {
@@ -8,11 +8,6 @@ export default function RetailIntelligencePage() {
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-4">
-            <span className="text-sm font-semibold text-blue-600 bg-blue-100 px-3 py-1 rounded">
-              Class 042 - SaaS
-            </span>
-          </div>
           <h1 className="text-5xl font-bold mb-6">Retail Intelligence Platform</h1>
           <p className="text-xl text-gray-600 mb-12">
             Comprehensive SaaS platform providing real-time analytics, insights, and intelligence for modern retailers.

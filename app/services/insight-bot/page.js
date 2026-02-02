@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'Insight Bot - Leeuki',
-  description: 'AI-powered chatbot for instant retail insights (Class 042 - Chatbot)',
+  description: 'AI-powered chatbot for instant retail insights',
 }
 
 export default function InsightBotPage() {
@@ -8,11 +8,6 @@ export default function InsightBotPage() {
     <div className="min-h-screen py-16">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-4">
-            <span className="text-sm font-semibold text-blue-600 bg-blue-100 px-3 py-1 rounded">
-              Class 042 - Chatbot
-            </span>
-          </div>
           <h1 className="text-5xl font-bold mb-6">Insight Bot</h1>
           <p className="text-xl text-gray-600 mb-12">
             AI-powered chatbot that provides instant retail insights and answers to your business questions.
